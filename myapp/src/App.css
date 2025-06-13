@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+background-color: #444;
+  
+}
+.title{
+ text-align: center;
+  color: #FF6F61;
+  
+
+}
+
+.container{
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 20px;
+  
+  
+  
+}
+
+.Transaction-container{
+  margin: 100px 0;
+  padding: 5px;
+  width: 350px;
+  border: 2px solid #FF6F61;
+  border-radius: 10px;
+}
+
+.top-menu{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}

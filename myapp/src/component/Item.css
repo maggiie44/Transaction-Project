@@ -1,0 +1,18 @@
+.item{
+    text-align: center;
+    list-style: none;
+    color: red;
+    margin: 15px;
+    border: 1px solid black;
+    padding: 10px;
+        display: flex;
+    justify-content: space-between;
+
+}
+
+.plus{
+    border-right: 3px solid green;
+}
+.minus{
+    border-right: 3px solid red;
+}
